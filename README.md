@@ -23,4 +23,4 @@ The classification experiments were run on *Python* 3.9 and *PyTorch* 1.12.1.
    python run_exp.py --dataset cifar10 --model resnet --alg info_nn --n_total 20000 --n_samples 5000
    `
    
-   runs an active learning experiment for image classification on the dataset *CIFAR10* using a *ResNet* and querying for labels according to the *InfoNN* algorithm, in batches of 5000 until a total of 20000 is reached.
+   runs an active learning experiment for image classification on the dataset *CIFAR10* using a *ResNet* and querying for labels according to the *Info-NN* algorithm, in batches of 5000 until a total of 20000 is reached.
