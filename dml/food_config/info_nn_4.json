@@ -1,0 +1,17 @@
+{
+    "K"         : 4,
+    "B"         : 30,
+    "TR"        : 45,
+    "LR"        : 5e-4,
+    "epochs"    : 100,
+    "burn_in"   : 10,
+    "selection" : "info-nn",
+    "MC"        : 5,
+    "mu"        : 1e-5,
+    "l2reg"     : 0,
+    "dist_std"  : 1,
+    "num"       : 30,
+    "type"      : "dist",
+    "criterion" : "hinge",
+    "scheduler" : "none"
+}

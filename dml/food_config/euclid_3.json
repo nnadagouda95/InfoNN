@@ -1,0 +1,14 @@
+{
+    "K"         : 3,
+    "B"         : 60,
+    "TR"        : 45,
+    "LR"        : 5e-4,
+    "epochs"    : 100,
+    "burn_in"   : 10,
+    "selection" : "DML_euclid",
+    "MC"        : 5,
+    "mu"        : 1e-5,
+    "l2reg"     : 0,
+    "criterion" : "hinge",
+    "scheduler" : "none"
+}

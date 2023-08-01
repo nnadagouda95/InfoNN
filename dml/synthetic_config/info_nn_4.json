@@ -1,0 +1,21 @@
+{
+    "N"         : 100,
+    "D"         : 10,
+    "K"         : 4,
+    "B"         : 10,
+    "TR"        : 30,
+    "LR"        : 1e-4,
+    "epochs"    : 100,
+    "burn_in"   : 10,
+    "selection" : "info-nn",
+    "MC"        : 5,
+    "mu"        : 1e-5,
+    "l2reg"     : 0,
+    "dist_std"  : 0.5,
+    "num"       : 10,
+    "type"      : "emb",
+    "criterion" : "hinge",
+    "scheduler" : "none",
+    "flip"      : "True",
+    "flip_pct"  : 0.25
+}
