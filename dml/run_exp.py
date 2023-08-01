@@ -285,7 +285,7 @@ def train_test_loop(model, epochs, optimizer, scheduler, criterion, paired_comps
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Active query selection")
-    parser.add_argument("--dataset", type=str, help="dataset to use (synthetic/food/haptic)")
+    parser.add_argument("--dataset", type=str, help="dataset to use (synthetic/food)")
     parser.add_argument("--config", type=str, help="json config file")
 
     args = parser.parse_args()
